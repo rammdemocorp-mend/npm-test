@@ -1,0 +1,16 @@
+{
+  "name": "delphix-license",
+  "delphixInternal": true,
+  "version": "1.0.0",
+  "readme": "Library to generate license report for npm packages",
+  "dependencies": {
+    "npm-license-crawler": "0.2.1"
+  },
+  "delphixProduct": "Delphix Engine",
+  "delphixLegal": {
+    "npm-license-crawler": {
+      "copyright_holder": "Marcus Wittig",
+      "license": "BSD-3-Clause"
+    }
+  }
+}
