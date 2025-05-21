@@ -3,11 +3,11 @@
   "remediateSettings": {
     "hostRules": [
       {
-        "matchHost": "https://ram-mend-1.mend-demo.com/nexus/repository/test-repo-grouped/",
+        "matchHost": "https://ram-mend-1.mend-demo.com/nexus/repository/npm-proxy/",
         "hostType": "npm",
         "userName": "admin",
         "encrypted": {
-          "password": "wcBMA8xOaBJvzJNbAQf/Y3dqyQSSNlorSQ3w2cnt1278Unhz2elGvIMIAXlrNOlI0zhUCZpL6x9PnM4+frSu80jq1FuSOQoNOE8M/ObTT2Bgf3Aqi+cKuml5gcqKP+BoJ1V8fq15uB4YZN2Havp88xIeAa7jhYJpspbVfKgpXbQCuloYy/FIaOj5kSTi0nMI5Q1zHEfRFWIWfWtzjQ/wYfPHncD8pXBSxej+mSAkOvhEV7um2KSPwPXY6bISS0DQ3oPOzGqUyNYqttNgjqC2E0rFMn9Wi6ibuo+8xmmlW0yEAxUKA7ohSFsubB9BOGgWp3XH7HqW/Zni2dtTYAD2P7umNZOvsaB5X3+RobumIdJoAXoEsJW67KDRxeR5TEtnRt5aVFvpyBPznG1iwPHsQrR3w1KAgVjFHPffC+cSIMCNFCET0F8g+tBnsCBP4aauYSKjBX3gs5HBuY6Y4wMAe/y2Qm9QyeqP6JdEcIUBQdbBJoumwPFsex8"
+          "password": "wcBMA8xOaBJvzJNbAQf+PLs7cpsX5cad4m+cIX+/wNmQgNinj/u3WI9RW7yf8GfXT8S/re2ye8x6HMNx+jkCkJMoSTnVCkEGm29lY7kSEeOnU6Qb0ctuIlh2nXHyAeqOoDKPEznqR/1tdPZxp00e4jTgQUflhIU/L2sGhh6KgLo+fuZdQtg6Z3F+evymBXyPkY2qOJpixmrsnsvcP9HduN5zTF1/CHLGdWdkiEf70hVTy2YaQyTb391/vk8/MhYa3SxY5j/59snv+yc/yUZE8obXEugZ7O3ekTGVDxSjOMJZQcTPFIWYvzn9VuXpEZNuN8OFSXuhJFtpF8/Rr2Bz2dAO9OQt47xHaERYzVBkJtJoAT+gtKJF+JmtJFBsshShCjVUMOA9Y123IVLmtDtxUJfVf2kkWGgPnxbQ6munknlBfF1EhsV7DgW6q5KMHrGCV+fyLtR3aVr8AQPSSqyY5fyPzKTMl1DvjPDw6/p2MJGRxT7CJ1IiUYs"
         }
       }
     ],
@@ -17,7 +17,7 @@
           "npm"
         ],
         "registryUrls": [
-          "https://ram-mend-1.mend-demo.com/nexus/repository/test-repo-grouped/"
+          "https://ram-mend-1.mend-demo.com/nexus/repository/npm-proxy/"
         ]
       }
     ]
