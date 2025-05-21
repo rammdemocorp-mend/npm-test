@@ -1,10 +1,32 @@
 {
   "settingsInheritedFrom": "rammdemocorp-mend/whitesource-config@main",
+  "remediateSettings": {
+    "hostRules": [
+      {
+        "matchHost": "https://ram-mend-1.mend-demo.com/nexus/repository/test-repo-grouped/",
+        "hostType": "npm",
+        "userName": "admin",
+        "encrypted": {
+          "password": "wcBMA8xOaBJvzJNbAQf/UwHce5+M4zzR8W+hbaqkC+9f8Sw8JGd9hp1loWamNKjSlj9HquqfyFtISbN/OH1mejlBSfdkL0jmgd8NNVuGxoEG9qL+DVv2SWapwPsqZ9OnUaFRqouU/mPTnJlYRzDJfgAd0rL9a2i9ExzSMRMz6KawcP7FbrP+ribvoFsSb/rxImVc9xCm4KHz75gFHR8d1Sf1lCkThz0ypisWo0gQZQ8jo1CEXzoHXgFI0R186nfA/ce+AmqefFwTcWSgVlLOxhlNMjBGDhRGKj5nllSj58tTVCM0S9FryDbzVVrs+172ePLFzRLVWTwRl2Dmudpp3cm9NhlprzAq0LhSUSZTb9JgAUsDjpqerBvj3RAvkQDaCRmWfFovE+gCzglGpsPOTN8C3uxm28NJspwI5V3Ec6cQL7eqRBzA0Lx5DW/lN/QjQYAD1Ss0Is4cW6j0adJGeRSJE40tto6t0+hlcf88NZ4M"
+        }
+      }
+    ],
+    "packageRules": [
+      {
+        "matchManagers": [
+          "npm"
+        ],
+        "registryUrls": [
+          "https://ram-mend-1.mend-demo.com/nexus/repository/test-repo-grouped/"
+        ]
+      }
+    ]
+  },
   "hostRules": [
     {
       "matchHost": "https://ram-mend-1.mend-demo.com/nexus/repository/test-repo-grouped/",
       "hostType": "npm",
-      "userName": "_auth=YWRtaW4=",
+      "userName": "admin",
       "encrypted": {
         "password": "wcBMA8xOaBJvzJNbAQf/UwHce5+M4zzR8W+hbaqkC+9f8Sw8JGd9hp1loWamNKjSlj9HquqfyFtISbN/OH1mejlBSfdkL0jmgd8NNVuGxoEG9qL+DVv2SWapwPsqZ9OnUaFRqouU/mPTnJlYRzDJfgAd0rL9a2i9ExzSMRMz6KawcP7FbrP+ribvoFsSb/rxImVc9xCm4KHz75gFHR8d1Sf1lCkThz0ypisWo0gQZQ8jo1CEXzoHXgFI0R186nfA/ce+AmqefFwTcWSgVlLOxhlNMjBGDhRGKj5nllSj58tTVCM0S9FryDbzVVrs+172ePLFzRLVWTwRl2Dmudpp3cm9NhlprzAq0LhSUSZTb9JgAUsDjpqerBvj3RAvkQDaCRmWfFovE+gCzglGpsPOTN8C3uxm28NJspwI5V3Ec6cQL7eqRBzA0Lx5DW/lN/QjQYAD1Ss0Is4cW6j0adJGeRSJE40tto6t0+hlcf88NZ4M"
       }
@@ -12,11 +34,12 @@
   ],
   "packageRules": [
     {
-      "matchManagers": [ "npm" ],
+      "matchManagers": [
+        "npm"
+      ],
       "registryUrls": [
         "https://ram-mend-1.mend-demo.com/nexus/repository/test-repo-grouped/"
       ]
     }
   ]
 }
-
