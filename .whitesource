@@ -1,0 +1,13 @@
+{
+  "settingsInheritedFrom": "rammdemocorp-mend/whitesource-config@main",
+  "hostRules": [
+    {
+      "matchHost": "https://ram-mend-1.mend-demo.com/nexus/repository/test-repo-grouped/",
+      "hostType": "npm",
+      "userName": "admin",
+      "encrypted": {
+        "password": "wcBMA8xOaBJvzJNbAQf/T260mZ9jnObxCsXnKwACXSBu8KeptW42dAmi27XwGHcEsVF1M6xJhTvgInJHa5l0A6pg9gMZqUhwLYuCnHG9ltqnzf7w4QgTyGQuB948I2H24aN1Y4j9uJm8/wRXwAupRNtMePxJmM6onf7Zm65nb/YDxtcpBOBSdzL4m6fVg6OxcVMa8SmQoSWmG2Tdu06hYltfcmxKlPMfU1L160JoMCGXCu5xvSsSaYoW83/cyte94+xVlFb6zvrtESwNAixM7SUcqjp+UwkrRig5X9dzaRogzH07RuUBnksbaIiDYOidF4smPg0pEKpUVHys6grjqqAZuoz2YOKWeJxh6OFzq9JZAa9DIy9Q+zt6bgVT74sNhPxGKbZoZgn/B5gec08xTd7mvoOv7ag6x24Xobp8BWdwLcT70ejuazjmVuQhPZFNW2pKOQSZl83ySgEwKO4Erfzsi6Yx4fZ9UkY"
+      }
+    }
+  ]
+}
