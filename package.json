@@ -1,17 +1,14 @@
 {
-  "name": "delphix-license",
-  "delphixInternal": true,
+  "name": "ram-npm-test",
   "version": "1.0.0",
-  "readme": "Library to generate license report for npm packages",
-  "dependencies": {
-    "npm-license-crawler": "0.2.1"
+  "description": "ram-npm-test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
-  "delphixProduct": "Delphix Engine",
-  "delphixLegal": {
-    "npm-license-crawler": {
-      "copyright_holder": "Marcus Wittig",
-      "license": "BSD-3-Clause"
-    }
-  }
+  "dependencies": {
+    "swagger-ui-express": "5.0.0"
+  },
+  "license": "ISC"
 }
-
