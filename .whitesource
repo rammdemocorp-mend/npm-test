@@ -9,17 +9,7 @@
         "password": "wcBMA8xOaBJvzJNbAQgAgtJqdtn+zqFAbQn6ZszrgjIvVC9guOGJy5c0A0UQatMHVXmkF/+0qh+kE/n/oa2+SbAFFl6k/uZouaKx5YBtUg3Jo+LN7VcRUBkXRtg/7MUkghIaWL/xJBb2bykjO09t6+l/ggkCO20BkaHOZCRCGxNlONyQWJ1ZlG/I0AecKJuH3v2XkUiA5XB1/fQgL8LQ0P8NW/fA+G9sNthVdukjCEZCKV9uCbscW+H2z6xWi2aUAmWz+dd2UNzyD6q5qj1VRKn5Te8vp05K431yNySz8n7O+fGlz5av0CApVhaXU9V1RgEB5bvXARqPMqMe0Yv6RT4karUT7KxQCNocTwVPkdJoATmTjjAo0YKiCIUE54RajlOpx74rFHyMbYOK5T9sBc8lLItBEuzrBB1rOOt92E9F4PU9/DXW2zKRkr3Ni+qNLE/icz9lombdhZQ2BNeQCbqqLrWRTcIKBeCg/mVzrIcMz+gXxNEIeWM"
       }
     }
-  ],
-  "packageRules": [
-    {
-      "matchManagers": [
-        "npm"
-      ],
-      "registryUrls": [
-        "https://ram-mend-1.mend-demo.com/nexus/repository/npm-proxy/"
-      ]
-    }
-  ],
+  ]
   "remediateSettings": {
     "enableRenovate": true,
     "hostRules": [
