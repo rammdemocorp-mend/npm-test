@@ -13,7 +13,7 @@
     "webpack-cli": "6.0.0",
     "sny-cli": "1.0.0",
     "test": "3.2.1",
-    "storybook-zeplin": "2.0.3"
+    "storybook-zeplin": "3.0.0"
   },
   "license": "ISC"
 }
