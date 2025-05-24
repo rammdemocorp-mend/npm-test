@@ -1,37 +1,22 @@
-  {
-    "settingsInheritedFrom": "rammdemocorp-mend/whitesource-config@main",
-    "hostRules": [
-      {
-        "matchHost": "https://ram-mend-1.mend-demo.com/nexus/repository/npm-proxy",
-        "hostType": "npm",
-        "userName": "admin",
-        "encrypted": {
-          "password": "wcBMA8xOaBJvzJNbAQgAlaa+tWGS2vZJqVDbE5eR2dnr219dS9qtvcKTVd3SAqJXE6m+m1ho0X3LnAtBYUVnlJgsJPRFPW2E4NoWG/gpUQ4HoYrhXrXFEC5rgu+th2cguwTqJN/D0tHUJAS8OQcyKNNA7jmzna8i405R8CXkr8TKeIviYzJno5UhtBjW1v2ui+b1JlXh2RUUoAa0A9cyuv+ss4pTTKb3FeZYmX/cNUblZXWH6UXRToJj75ANcUPaYRatycjvf/CwePvL4gX2+g4fSjAlalccVuCN7PBHPgCxKZTj6QRMCeO/rvWdbv2BK2DKUSvq/BxLFukBiN8sj2oUEhrFSG5tybqvy+RnkNJgAWPLGY7Ci+eih30xCnNmbInfXmdteIesTAtnPtxLMWd7K7ftLVpaIpBnLCLApx0S3IsYdH1mvj5dtRdP76/iJeCUZJaDMXVmiEl8k4mEJWncZb8NHWvnHJsSxJGWIT+Z"
-        }
-      }
+{
+  "settingsInheritedFrom": "rammdemocorp-mend/whitesource-config@main",
+  "remediateSettings": {
+    "workflowRules": {
+      "enabled": false
+    },
+    "enableRenovate": true,
+    "extends": [
+      "config:recommended"
     ],
-    "remediateSettings": {
-      "enableRenovate": true,
-      "hostRules": [
-        {
-          "matchHost": "https://ram-mend-1.mend-demo.com/nexus/repository/npm-proxy",
-          "hostType": "npm",
-          "userName": "admin",
-          "encrypted": {
-            "password": "wcBMA8xOaBJvzJNbAQgAlaa+tWGS2vZJqVDbE5eR2dnr219dS9qtvcKTVd3SAqJXE6m+m1ho0X3LnAtBYUVnlJgsJPRFPW2E4NoWG/gpUQ4HoYrhXrXFEC5rgu+th2cguwTqJN/D0tHUJAS8OQcyKNNA7jmzna8i405R8CXkr8TKeIviYzJno5UhtBjW1v2ui+b1JlXh2RUUoAa0A9cyuv+ss4pTTKb3FeZYmX/cNUblZXWH6UXRToJj75ANcUPaYRatycjvf/CwePvL4gX2+g4fSjAlalccVuCN7PBHPgCxKZTj6QRMCeO/rvWdbv2BK2DKUSvq/BxLFukBiN8sj2oUEhrFSG5tybqvy+RnkNJgAWPLGY7Ci+eih30xCnNmbInfXmdteIesTAtnPtxLMWd7K7ftLVpaIpBnLCLApx0S3IsYdH1mvj5dtRdP76/iJeCUZJaDMXVmiEl8k4mEJWncZb8NHWvnHJsSxJGWIT+Z"
-          }
-        }
-      ],
-      "packageRules": [
-        {
-          "matchManagers": [
-            "npm"
-          ],
-          "registryUrls": [
-            "https://ram-mend-1.mend-demo.com/nexus/repository/npm-proxy"
-          ]
-        }
-      ]
+    "timezone": "America/New_York"
+  },
+  "hostRules": [
+    {
+      "matchHost": "https://wsdev.jfrog.io/artifactory/api/npm/fieldeng-npm-dev/",
+      "hostType": "npm",
+      "encrypted": {
+        "token": "wcBMA+G7Ve+SxK4TAQf/VP5x5TkLKnl3dV13shTwsp+s4yEM9HnVYYXPI+q2foU4t4rihyvn3rplqKH2badk6DCNwUDhRGjTTRptGgkMJtaXVYHIvrVKLGThkoCHc3mkKtMctZrZfa8qpwwD51dt0S/nBUzrnAixP8uWoq3a+4Aaqw/W21TD4YVjCqCBeig+Fvo3SE/PbaClDovEv4Ge1ONxXVhNQmhJVTXE5cpK4vsXHRwmEyoUzeOT/2fENV3kbEM4jP8Y/OT7clejrLM7kpcMlrpBRvaez37c5ZF3uUvawnvf9obSwvRkYkrII0EY4NWYp0lv9kVnvIBXSWDawfA50SQNzK3htxlS/rHILdKlAd3rpTwFAtHO7r5shZwgZZdfhjkcM87f7vIKDhVZX8cu5PBsKo//TVqfCgM4w+Rbv+dxobbjHZdemMw/c/Bp7B5JaYgTAqABG+BN5hfBPtVW5/oFOh8v2CXIotsKvejx+bwXNExUfm7iDJDBiuCtzhic9TCBw7er5wubp7omejzu5K6kjFWkI0BKNSG/32ff3Or+wP+DvHrusto9/Nw/yVO9uUIh"
+      }
     }
-  }
-
+  ]
+}
