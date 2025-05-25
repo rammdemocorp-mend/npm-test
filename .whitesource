@@ -13,6 +13,7 @@
     {
       "matchHost": "https://ram-mend-1.mend-demo.com/nexus/repository/npm-group-proxy/",
       "hostType": "npm",
+      "userName":admin,
       "encrypted": {
         "token": "YWRtaW46YWRtaW4xMjM="
       }
