@@ -13,8 +13,9 @@
     {
       "matchHost": "https://ram-mend-1.mend-demo.com/nexus/repository/npm-group-proxy/",
       "hostType": "npm",
+      "userName": "admin",
       "encrypted": {
-        "token": "wcBMA8xOaBJvzJNbAQf+IghVlfnGUtSEKAHT0HwfviQoEbCmkp0+KFLVVy90RsPJE0JRUP9C/VgqWWeh7GbKR8RPVmjLFsUrlrnwafZ5bS88vftRnm8JGrn4JYc01pYQIOrxbHQ+Udd0yk7KIdcI/H27KhCgw6z4n4DS7WhiwMClyl0lrKvIeOiwibIwEdqhhmetJ+vuO88vtMhmW7o1B7hw4othTeLySxdMuCwT5tkWG1lfu/QdnJWtJYjZPsj6KwK/AN0F1Fs0ilXzT7nzxZxb8xbmWCmNFuahsbF6ZkNxEJxN7Jnv5lDAP7idnir1k5ho8yhEvBNhTqAYK85cnijb9MOsvDtP57F/Ci1J1dJgAUov21avV80XL9o2B375yiiL0fOylQ5wFhapniCptjDjILoZqNHgtDDhviW/5PuBRfgZpzESpbopySXnKM+uxiZGTVe7HnvivGfX5q5mR5AgB3NXK5BjH+uAukyhkM7n"
+        "password": "wcBMA8xOaBJvzJNbAQf/V8/2CXySCf9GPyElJOWTeRF4r3rK1YI+41pIHfhNMOOmaCEi3rw3t+I7eDS0RCVS3z+EM2SaUui//9yzZU2x7gLCWA0wo6MWTmA2/vf5zQI+Fur2Y63C09nndl3qAlI2I46TSj0Dg6jttsELmOf9mwWNOVqr8Eh0PLrS3mAtFXer0U4xqCwrmJvk64HRl8U/D03hQ+PUfeMwd2hEm5dsJ3FbTF8YBlz4z2NLJRWdAmx59eg9Zoem5TAMqsu0AlfnUshsEnpWuBsQWt1Fpw482PaWxAaVm8uxjJxs50DH8tfqCJyN05AxPnqKMsvnsPadlgppryE4D6W1bVHZpUztrtJoAa5ODDo0AhSCYqu/i4VsOg9/wjs6agzHwgGoDPlmUlfS3DMXc4ots+xzhLhU9s6w/om5wast+p/CbEtWerjm1JAuvqZKXdh9ivT+7VIjY5TS6+0S1Yj8E8uHkNyuzZ3FozlFzoVKhxM"
       }
     }
   ]
