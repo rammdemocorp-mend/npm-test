@@ -8,5 +8,14 @@
     "extends": [
       "config:recommended"
     ]
-  }
+  },
+  "hostRules": [
+    {
+      "matchHost": "https://ram-mend-1.mend-demo.com/nexus/repository/npm-group-proxy/",
+      "hostType": "npm",
+      "encrypted": {
+        "token": "wcBMA8xOaBJvzJNbAQf/aNoJq/4pNWmK0ErwixNdL0jLGTt6+3mzHp5GZOyTSL0UjrhdmF9gWFUV2sE51sRWmzkRRXMhOvKV3GTHUW8+FZTipCjBizi6Z2tW1M6ujwAXk76pr20kb7aNL/VD18B1PPlYXbqZivhkPKfO/DZPxy7H4tkdDMNme5eue8t6UVtW0MVRknXPWlIjWh2mionRMauN8nyFNyTeUR8y3botDNYWvNDj4qvAEMuqBmBUA7iXwJpD47JSFZFi7qUyNLxSwVGXce8dzu6vii3CDiaB94CHF+caoYwIZa/uSU8SQf8BZL25XZcdK+TFt0Tu9ehJPB89ER5DyqgrNm6iqWL2RNJ0AZA//KZzqj8mkT/iQ+uSFzYHgwHSSJGYYz3yUpiUa+yI0cZPb9gq5ynSwDy7+lr1RNnKaszr+zJX5drcKd70Od20BQ4dNJdIx+B3ynmPP9AZqpP70C3k4Sq0lLerHggt/Ahjk2+zmVhA1EH0zujR8zckxp8"
+      }
+    }
+  ]
 }
