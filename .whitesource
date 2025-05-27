@@ -1,5 +1,10 @@
 {
   "settingsInheritedFrom": "rammdemocorp-mend/whitesource-config@main",
+  "scanSettings": {
+    "skipScanningStage": {
+      "connectivity": ["npm"]
+    }
+  },
   "remediateSettings": {
     "workflowRules": {
       "enabled": false
@@ -11,11 +16,11 @@
   },
   "hostRules": [
     {
-      "matchHost": "https://ram-mend-1.mend-demo.com/nexus/repository/npm-group-proxy/",
+      "matchHost": "https://ram-mend-2.mend-demo.com/nexus/repository/npm-group-repo/",
       "hostType": "npm",
       "userName":admin,
       "encrypted": {
-        "token": "wcBMA8xOaBJvzJNbAQf+OWfPAhp5qADmh2UphAr1D4YxlfsDehzPIof/cf+62PD5hF/UzCXj1uSr3m7EWe5I9s4oXotvONAXQ9Vuhtv1VKPg1MZH8cCZlwSLZFSJJHW7nM9H0JKXDx1aG5Z9Q1vNgrm0Dddb79qCmFt8++adXCLvBkzmIQGR0hj5FetzB1GM0ooFLK+c6gUKyTaol1x9H1OMf+MCzxRPIR5/zKAyWHz/9EoJ2TvG1/6Kyl6/kE3anAhcOe3lFmJK7AD4tY62GwZiWUJdMZJxIGfcuc0K/o4prUf+kmFIbYNN39f4Xg5FBT2OWB1u6sxMsLnLoPX/uX4s4jsfECu67aaO8RQ+9dJ0ARfCzWFahwrdttejjxtNo5QU+6xh7gVUQXMjHvupCYxlY+z3Efj2+HCbCFWisJvjI6M5F/0n1rudrgDsoweeInDW5s9QibyuD8VsQSFMRGBwJIQ/TyzZbKv0dePy8zklAlnzC1rKAyZY/8TdiBK4nqbZyGA"
+        "password": "wcBMA8xOaBJvzJNbAQgAh03CFX+odqg27oIH0fvMtGTu2yIaZ3i6FvuZ7yU+Yg503gUrExa7TggOCTczc5OhxKXbjDSUk1mtwCZxPbZP3IDGCE0G2eEpfG/tb90RTw4eA+9ZJsvEBWYnowsckpUqnjCxCNwS1OynXb4PExWpQ/qFi/TvsmH6DgzgEPZvECM+T/a7CAOE236odQW6Saym908mMwvv8yuoyE+APXL1lfiVUhWdDD3xmcLjul4DSPzSLm7pcOelX4ieAFSB1sV0Lx6v4Z72xCNC7RuO8PC/Ttm0p03oYGk2v+WwVaG12kX0rv9u9FUIKL6Ad7E6TOyMymDYyipgYOP+C4AxOh1satJlARpRFzeWyvldAIZ8ca+pNIJif6aiZuSxbgefyxn0gN6TQE4cWngVMZpg2K/bWVH6d8BK0dmm87AHjTD4X2U3TW2Ip+XhE+OXCV2mwvYdr5B+5AqCiJB1IUV9n81y4Ymu8attXU0"
       }
     }
   ]
