@@ -26,7 +26,7 @@
         "https://ram-mend-1.mend-demo.com/nexus/repository/npm-group-repo/"
       ]
     }
-  ]
+  ],
   "remediateSettings": {
     "hostRules": [
       {
