@@ -2,17 +2,10 @@
   "settingsInheritedFrom": "rammdemocorp-mend/whitesource-config@main",
   "scanSettings": {
     "skipScanningStage": {
-      "connectivity": ["npm"]
+      "connectivity": [
+        "npm"
+      ]
     }
-  },
-  "remediateSettings": {
-    "workflowRules": {
-      "enabled": false
-    },
-    "enableRenovate": true,
-    "extends": [
-      "config:recommended"
-    ]
   },
   "hostRules": [
     {
@@ -20,9 +13,40 @@
       "hostType": "npm",
       "userName":admin,
       "encrypted": {
-        "password": "wcBMA8xOaBJvzJNbAQf9HRZOYwSlmubh8/mh+cOCm9X9loA2m7qOjywHCFGY3HhVIuWHHTQS0Y4oA8kRDQVdGiYXGpVJVjgqmXLQXs9hkpZFTrK/0IuIHqt5iRwaYWdf1E8ttHA4iZt4b4oPaqyQk2zDHBvGr1FRtoEm+7ksSnG071MzKv8QarkL9O89FOO0YEfJxM6NR+4rj/ZgvUDJJ3UVdkgR2RjjjlrSsPQrWIrR9aJALFR5zJKKjXG6iEh51JXHeqIoz7vEjL9xNO64sWttccicyrHG4eMYbB9TcgE565ST1ZvKX7lLKor45c309M/ML4L98Zi/34L/0lv34YoQA2gBF5vcLQyEzeo3P9JoAc+9qc6cueBPMME12EaK4o3m7m0GZ/NjA1EabwBJ3FseQf0OOHASPMPOr6xhszL3IYz/oBzePRnEwr3saz2hhXGAxuxBbCoDyl515ReOeG6ZeiBXsY0wFURWozk/HjnE1ud+8i0vPAY"
+        "password": "wcBMA8xOaBJvzJNbAQf8Dd76WuNsRguS1S9s9+SuGbKndvEOADmGo0rKuLwheGCI/kf9aymPPc/1FjIRGG3oKhGxcz4HIo2wwFzk7XWhjuY4mUxy3qa3GpBaJdEBIZN+hSifJjYigj6YYw0yBJlia/lmAvUAKHvaTH5BqdhBQiDmWVPCueLpUSXdZo5x0nT8F6xnGALLmK9Jzlm8RlEb5dusbyBAANb14ZfoFtFiLyw2cB8dvWx5sirDWIIYxMkge1mHGVyMjYvD4RGulmA0slpFanjPkElEeLH2hzxurxedFaIXZC5V/iTN2vS3L/rIX1HR9h+hOhF3KcDcYpMxybImepzLNy4GwYhptsLEVNJoAUxZSwHLJneXafz/GcA+tq1W1f2gqHzIbMY44L3REucslnlCiLG633dpuUGF1TO2oQjcPVlFUcJIIFUf7Pt7Fzk7948pU+VR0yjIjdJaIWO+/ymfd2I2p3snlS6N158cXTDFXPUjHaU"
       }
     }
+  ],
+  "packageRules": [
+    {
+      "matchManagers": [
+        "npm"
+      ],
+      "registryUrls": [
+        "https://ram-mend-1.mend-demo.com/nexus/repository/npm-group-repo/"
+      ]
+    }
   ]
+  "remediateSettings": {
+    "hostRules": [
+      {
+        "matchHost": "https://ram-mend-1.mend-demo.com/nexus/repository/npm-group-repo/",
+        "hostType": "npm",
+        "userName":admin,
+        "encrypted": {
+          "password": "wcBMA8xOaBJvzJNbAQf8Dd76WuNsRguS1S9s9+SuGbKndvEOADmGo0rKuLwheGCI/kf9aymPPc/1FjIRGG3oKhGxcz4HIo2wwFzk7XWhjuY4mUxy3qa3GpBaJdEBIZN+hSifJjYigj6YYw0yBJlia/lmAvUAKHvaTH5BqdhBQiDmWVPCueLpUSXdZo5x0nT8F6xnGALLmK9Jzlm8RlEb5dusbyBAANb14ZfoFtFiLyw2cB8dvWx5sirDWIIYxMkge1mHGVyMjYvD4RGulmA0slpFanjPkElEeLH2hzxurxedFaIXZC5V/iTN2vS3L/rIX1HR9h+hOhF3KcDcYpMxybImepzLNy4GwYhptsLEVNJoAUxZSwHLJneXafz/GcA+tq1W1f2gqHzIbMY44L3REucslnlCiLG633dpuUGF1TO2oQjcPVlFUcJIIFUf7Pt7Fzk7948pU+VR0yjIjdJaIWO+/ymfd2I2p3snlS6N158cXTDFXPUjHaU"
+        }
+      }
+    ],
+    "packageRules": [
+      {
+        "matchManagers": [
+          "npm"
+        ],
+        "registryUrls": [
+          "https://ram-mend-1.mend-demo.com/nexus/repository/npm-group-repo/"
+        ]
+      }
+    ]
+  }
 }
-
