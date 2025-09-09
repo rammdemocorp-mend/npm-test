@@ -2,51 +2,37 @@
   "settingsInheritedFrom": "rammdemocorp-mend/whitesource-config@main",
   "scanSettings": {
     "skipScanningStage": {
-      "connectivity": [
-        "npm"
-      ]
+      "connectivity": ["npm"]
     }
   },
   "hostRules": [
-    {
-      "matchHost": "https://ram-mend-2.mend-demo.com/nexus/repository/npm-group-repo/",
-      "hostType": "npm",
-      "userName":admin,
-      "encrypted": {
-        "password": "wcBMA8xOaBJvzJNbAQf8Dd76WuNsRguS1S9s9+SuGbKndvEOADmGo0rKuLwheGCI/kf9aymPPc/1FjIRGG3oKhGxcz4HIo2wwFzk7XWhjuY4mUxy3qa3GpBaJdEBIZN+hSifJjYigj6YYw0yBJlia/lmAvUAKHvaTH5BqdhBQiDmWVPCueLpUSXdZo5x0nT8F6xnGALLmK9Jzlm8RlEb5dusbyBAANb14ZfoFtFiLyw2cB8dvWx5sirDWIIYxMkge1mHGVyMjYvD4RGulmA0slpFanjPkElEeLH2hzxurxedFaIXZC5V/iTN2vS3L/rIX1HR9h+hOhF3KcDcYpMxybImepzLNy4GwYhptsLEVNJoAUxZSwHLJneXafz/GcA+tq1W1f2gqHzIbMY44L3REucslnlCiLG633dpuUGF1TO2oQjcPVlFUcJIIFUf7Pt7Fzk7948pU+VR0yjIjdJaIWO+/ymfd2I2p3snlS6N158cXTDFXPUjHaU"
+      {
+          "matchHost": "https://ram-mend-3.mend-demo.com/nexus/repository/npm-group/",
+          "hostType": "pypi",
+          "userName": "npm",
+          "encrypted": {
+              "password": "wcBMA8xOaBJvzJNbAQgAhkvGhBeiS4xU/ztiYLU+gJeegd11z4yo8LBa+1V+SzrJPEZfOhmhTq55yPpdvTjdw97+M7AbZZ1xNUveXwuJqqZ/Htt15PzAiNUbruKYoLdb4fYeWBNYBhSj4yeykJSwSbI69HjPk4oNGPrYAxdSZq0ixzdJc/YpSakHEYhB23ZmMZEQ3i511G+C/S/MVb28blHG5ER6t9QVXwmWl1paQCDQN+zwUmvpZygvtF2dAZEwF1Imb+Jev8/dbtkxlQD+wE8O/yd4MNj5jfwBESsh73OFwa5aYUvlCcGDjpsxOf511CWecWZeLDibW6L/hNNaW0M33RidnNe1QP5BB3Xv2dJgARaT3HggJpfvpcAS+bWW2MFgPFag6wC+9v/BplYPFagGkrSSX8dJo/C1Wx8W+SGNUy5y4BFp8r4VaOGop7woRoGWHKco0W84R7Wgr+H90SsOGZtRcV2NnBybyLm+/5v5"
+          }
       }
-    }
-  ],
-  "packageRules": [
-    {
-      "matchManagers": [
-        "npm"
-      ],
-      "registryUrls": [
-        "https://ram-mend-1.mend-demo.com/nexus/repository/npm-group-repo/"
-      ]
-    }
   ],
   "remediateSettings": {
-    "hostRules": [
-      {
-        "matchHost": "https://ram-mend-1.mend-demo.com/nexus/repository/npm-group-repo/",
-        "hostType": "npm",
-        "userName":admin,
-        "encrypted": {
-          "password": "wcBMA8xOaBJvzJNbAQf8Dd76WuNsRguS1S9s9+SuGbKndvEOADmGo0rKuLwheGCI/kf9aymPPc/1FjIRGG3oKhGxcz4HIo2wwFzk7XWhjuY4mUxy3qa3GpBaJdEBIZN+hSifJjYigj6YYw0yBJlia/lmAvUAKHvaTH5BqdhBQiDmWVPCueLpUSXdZo5x0nT8F6xnGALLmK9Jzlm8RlEb5dusbyBAANb14ZfoFtFiLyw2cB8dvWx5sirDWIIYxMkge1mHGVyMjYvD4RGulmA0slpFanjPkElEeLH2hzxurxedFaIXZC5V/iTN2vS3L/rIX1HR9h+hOhF3KcDcYpMxybImepzLNy4GwYhptsLEVNJoAUxZSwHLJneXafz/GcA+tq1W1f2gqHzIbMY44L3REucslnlCiLG633dpuUGF1TO2oQjcPVlFUcJIIFUf7Pt7Fzk7948pU+VR0yjIjdJaIWO+/ymfd2I2p3snlS6N158cXTDFXPUjHaU"
-        }
-      }
-    ],
-    "packageRules": [
-      {
-        "matchManagers": [
-          "npm"
-        ],
-        "registryUrls": [
-          "https://ram-mend-1.mend-demo.com/nexus/repository/npm-group-repo/"
-        ]
-      }
-    ]
+      "hostRules": [
+          {
+              "matchHost": "https://ram-mend-3.mend-demo.com/nexus/",
+              "hostType": "npm",
+              "userName": "admin",
+              "encrypted": {
+                  "password": "wcBMA8xOaBJvzJNbAQgAhkvGhBeiS4xU/ztiYLU+gJeegd11z4yo8LBa+1V+SzrJPEZfOhmhTq55yPpdvTjdw97+M7AbZZ1xNUveXwuJqqZ/Htt15PzAiNUbruKYoLdb4fYeWBNYBhSj4yeykJSwSbI69HjPk4oNGPrYAxdSZq0ixzdJc/YpSakHEYhB23ZmMZEQ3i511G+C/S/MVb28blHG5ER6t9QVXwmWl1paQCDQN+zwUmvpZygvtF2dAZEwF1Imb+Jev8/dbtkxlQD+wE8O/yd4MNj5jfwBESsh73OFwa5aYUvlCcGDjpsxOf511CWecWZeLDibW6L/hNNaW0M33RidnNe1QP5BB3Xv2dJgARaT3HggJpfvpcAS+bWW2MFgPFag6wC+9v/BplYPFagGkrSSX8dJo/C1Wx8W+SGNUy5y4BFp8r4VaOGop7woRoGWHKco0W84R7Wgr+H90SsOGZtRcV2NnBybyLm+/5v5"
+              }
+          }
+      ],
+      "packageRules": [
+          {
+              "matchManagers": ["npm"],
+              "registryUrls": [
+                  "https://ram-mend-3.mend-demo.com/nexus/repository/npm-group/"
+              ]
+          }
+      ]
   }
 }
