@@ -8,8 +8,8 @@
   "hostRules": [
       {
           "matchHost": "https://ram-mend-3.mend-demo.com/nexus/repository/npm-group/",
-          "hostType": "pypi",
-          "userName": "npm",
+          "hostType": "npm",
+          "userName": "admin",
           "encrypted": {
               "password": "wcBMA8xOaBJvzJNbAQgAhkvGhBeiS4xU/ztiYLU+gJeegd11z4yo8LBa+1V+SzrJPEZfOhmhTq55yPpdvTjdw97+M7AbZZ1xNUveXwuJqqZ/Htt15PzAiNUbruKYoLdb4fYeWBNYBhSj4yeykJSwSbI69HjPk4oNGPrYAxdSZq0ixzdJc/YpSakHEYhB23ZmMZEQ3i511G+C/S/MVb28blHG5ER6t9QVXwmWl1paQCDQN+zwUmvpZygvtF2dAZEwF1Imb+Jev8/dbtkxlQD+wE8O/yd4MNj5jfwBESsh73OFwa5aYUvlCcGDjpsxOf511CWecWZeLDibW6L/hNNaW0M33RidnNe1QP5BB3Xv2dJgARaT3HggJpfvpcAS+bWW2MFgPFag6wC+9v/BplYPFagGkrSSX8dJo/C1Wx8W+SGNUy5y4BFp8r4VaOGop7woRoGWHKco0W84R7Wgr+H90SsOGZtRcV2NnBybyLm+/5v5"
           }
